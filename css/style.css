@@ -1,0 +1,725 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.nav ul {
+    margin-right: 100px;
+}
+
+.nav h1 {
+    margin-left: 100px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline-flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+}
+
+.nav a:hover {
+    color: rgb(134, 17, 17);
+}
+
+.nav ul a {
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    font-size: medium;
+    color: black;
+    word-spacing: 3px;
+    margin-right: 10px;
+}
+
+.image {
+    background-image: url(../images/atf-image.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    margin-bottom: 5%;
+
+}
+
+.insimage {
+    width: 350px;
+    position: relative;
+    top: 20%;
+    left: 7px;
+}
+
+.image h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+    margin-left: 80px;
+    text-transform: uppercase;
+    line-height: 40px;
+    letter-spacing: 1px;
+}
+
+.taste {
+    color: rgb(30, 188, 30);
+    font-weight: lighter;
+}
+
+.image a {
+    color: white;
+    padding: 10px;  
+    text-transform: uppercase; 
+    font-size: x-small; 
+    font-weight: lighter;    
+    font-family: sans-serif;
+    background-color: rgb(23, 15, 15);
+    margin-left: 80px;
+    font-weight: bold;
+}
+
+.image p {
+    margin-left: 82px;
+    font-style: italic;
+}
+
+.ads {
+    overflow: auto;
+    width: 1100px;
+    margin-left: 112px;
+    margin-bottom: 5%;
+}
+
+.ads-pic {
+    width: 510px;
+    float: left;
+    height: 250px;
+    margin-right: 11px;
+    background-size: cover;   
+    text-transform: uppercase;
+}
+
+.ads-pic:nth-child(1) {
+    background-image: url(../images/merchandise1.jpg);
+}
+
+.ads-pic:nth-child(2) {
+    background-image: url(../images/merchandise2.jpg);
+}
+
+.ads-text {
+    padding: 40px;
+    margin-top: 35px;
+    font-style: normal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+.ads-text h3 {
+    font-weight: lighter;
+}
+
+.ads-text a {
+    font-family: monospace;
+    color: white;   
+}
+
+.happen {
+    text-align: center;
+    height: 20px;
+    font-style: italic;
+    font-family: monospace;
+    color: rgb(205,133,63);
+}
+
+.merch {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.divider {
+    margin-left: 580px;
+    margin-right: 580px;
+    border: 2px solid;
+    color: rgb(205,133,63);
+}
+
+.firstline {
+    display: inline-flex;
+    margin-top: 60px;   
+    text-align: left;
+}
+
+.image1 {
+    margin-right: 11px;
+}
+
+.image1 h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+}
+
+.image1 h5 {
+    color: rgb(205, 133, 63);
+}
+
+.image1 p {
+    color: rgb(205, 133, 63);
+}
+
+.image2 {
+    margin-right: 11px;
+}
+
+.image2 h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+}
+
+.image2 h5 {
+    color: rgb(205, 133, 63);
+}
+
+.image2 p {
+    color: rgb(205, 133, 63);
+}
+
+.image3 {
+    margin-right: 11px;
+}
+
+.image3 h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+}
+
+.image3 h5 {
+    color: rgb(205, 133, 63);
+}
+
+.image3 p {
+    color: rgb(205, 133, 63);
+}
+
+.image4 {
+    margin-right: 11px;
+}
+
+.image4 h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+}
+
+.image4 h5 {
+    color: rgb(205, 133, 63);
+}
+
+.image4 p {
+    color: rgb(205, 133, 63);
+}
+
+.secondline {
+    display: inline-flex;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.image5 {
+    margin-right: 11px;
+}
+
+.image5 h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+}
+
+.image5 h5 {
+    color: rgb(205, 133, 63);
+}
+
+.image5 p {
+    color: rgb(205, 133, 63);
+}
+
+.image6 {
+    margin-right: 11px;
+}
+
+.image6 h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+}
+
+.image6 h5 {
+    color: rgb(205, 133, 63);
+}
+
+.image6 p {
+    color: rgb(205, 133, 63);
+}
+
+.image7 {
+    margin-right: 11px;
+}
+
+.image7 h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+}
+
+.image7 h5 {
+    color: rgb(205, 133, 63);
+}
+
+.image7 p {
+    color: rgb(205, 133, 63);
+}
+
+.image8 {
+    margin-right: 11px;
+}
+
+.image8  h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+}
+
+.image8 h5 {
+    color: rgb(205, 133, 63);
+}
+
+.image8 p {
+    color: rgb(205, 133, 63);
+}
+
+.special {
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 85px;
+    margin-left: 110px;
+    margin-right: 120px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.specialtext1 {
+    text-align: center;
+    font-family: monospace;
+    font-style: italic;
+    color: rgb(205, 133, 63);
+    font-weight: lighter;
+    height: 20px;
+}
+
+.specialtext2 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-weight: lighter;
+    height: 20px;
+}
+
+.special a {
+    color: black;
+    padding: 10px;
+    font-family: monospace;
+    background-color: white;
+    border: 7px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.whathapps {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.happs {
+    font-family: monospace;
+    font-style: italic;
+    color: rgb(205, 133, 63);
+}
+
+.sale {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    height: 40px;
+}
+
+.divider2 {
+    margin-left: 580px;
+    margin-right: 580px;
+    border: 2px solid;
+    color: rgb(205,133,63);
+    
+}
+
+.thirdline {
+    display: inline-flex;
+    margin-top: 60px; 
+    text-align: left;
+}
+
+.picture1 {
+    margin-right: 11px;
+}
+
+.picture1 h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+}
+
+.picture1 h5 {
+    color: rgb(205, 133, 63);
+}
+
+.picture1 p {
+    color: rgb(205, 133, 63);
+}
+
+.picture2 {
+    margin-right: 11px;
+}
+
+.picture2 h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+}
+
+.picture2 h5 {
+    color: rgb(205, 133, 63);
+}
+
+.picture2 p {
+    color: rgb(205, 133, 63);
+}
+
+.picture3 {
+    margin-right: 11px;
+}
+
+.picture3 h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+}
+
+.picture3 h5 {
+    color: rgb(205, 133, 63);
+}
+
+.picture3 p {
+    color: rgb(205, 133, 63);
+}
+
+.picture4 {
+    margin-right: 11px;
+}
+
+.picture4 h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+}
+
+.picture4 h5 {
+    color: rgb(205, 133, 63);
+}
+
+.picture4 p {
+    color: rgb(205, 133, 63);
+    height: 100px;
+}
+
+.line1 {
+    overflow: auto;
+    width: 1100px;
+    margin-left: 112px;
+    margin-bottom: 11px;     
+}
+
+.firstpart {
+    width: 510px;
+    float: left;
+    height: 250px;
+    margin-right: 11px;
+    background-size: cover;   
+    text-transform: uppercase;
+}
+
+.firstpart:nth-child(1) {
+    background-image: url(../images/merchandise3.jpg);
+}
+
+.firstpart:nth-child(2) {
+    background-image: url(../images/merchandise4.jpg);
+}
+
+.firsttext {
+    margin-left: 60px; 
+    margin-top: 80px;
+    font-size: lighter;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    color: white;
+}
+
+.firstpart a {
+    color: white;
+    font-family: monospace;
+    font-weight: lighter;
+    font-size: smaller;
+    padding: 60px;
+}
+
+.line2 {
+    overflow: auto;
+    width: 1100px;
+    margin-left: 112px;
+    margin-bottom: 5%;
+}
+
+.secondpart {
+    width: 510px;
+    float: left;
+    height: 250px;
+    margin-right: 11px;
+    background-size: cover;   
+    text-transform: uppercase;
+}
+
+.secondpart:nth-child(1) {
+    background-image: url(../images/merchandise5.jpg);
+}
+
+.secondpart:nth-child(2) {
+    background-image: url(../images/merchandise6.jpg);
+}
+
+.secondtext {
+    margin-left: 60px; 
+    margin-top: 80px;
+    font-size: lighter;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    color: white;
+}
+
+.secondpart a {
+    color: white;
+    font-family: monospace;
+    font-weight: lighter;
+    font-size: smaller;
+    padding: 60px;
+}
+
+.reserve {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    height: 50px;
+}
+
+.divider3 {
+    margin-left: 580px;
+    margin-right: 580px;
+    border: 2px solid;
+    color: rgb(205,133,63);
+    margin-bottom: 50px;
+}
+
+.reservation {
+    font-weight: bold;
+    font-size: small;
+    font-family: sans-serif;
+    display: inline-flex;
+    margin-left: 111px;
+    margin-right: 111px;
+}
+
+.reserv {
+    line-height: 15px;
+    padding: 30px;
+}
+
+.reserv:nth-child(1) {
+    background-color: lightgray;
+    margin-right: 12px;
+}
+
+.textreserve {
+    padding: 5px;
+    width: 435px;
+}
+
+.textreserve2 {
+    padding: 5px;
+    width: 435px;
+}
+
+.textreserve3 {
+    margin-top: 5px;
+    padding: 7px;
+    width: 450px;
+    border: none;
+    font-size: smaller;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(17, 178, 17);
+}
+
+.payment {
+    text-align: center;
+    line-height: 20px;
+}
+
+.cardsaccept {
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.cardsaccept2 {
+    font-family: sans-serif;
+    font-weight: lighter;
+    line-height: 2px;
+}
+
+.end {    
+    background-image: url(../images/footer-img.jpg);
+    width: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    background-size: cover;
+    display: inline-flex;
+    height: 250px;
+    padding: 30px;
+    color: white;
+}
+
+.last {
+    line-height: 20px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.last td {
+    font-family: sans-serif;
+}
+
+#date1 {
+    color: burlywood;
+    font-family: sans-serif;
+}
+
+.texter {
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.texters {
+    text-transform: capitalize;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+
+#info {
+    color: burlywood;
+    font-family: sans-serif;
+    font-size: small;
+}  
+
+.numbers {
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.Raymond {
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.standard {
+    line-height: 22px;
+}
+
+#search {
+    line-height: 28px;
+}
+
+#search1 {
+    background-color: burlywood;
+    line-height: 12px;
+    padding: 10px;
+    border: 1px;
+}
+
+.phil {
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: burlywood;
+}
+
+.tokyo {
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: burlywood;
+}
+
+.texterand {
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.lastone {
+    display: inline-flex;
+    background-color: black;
+    color: white;
+    width: 100%;   
+    height: 50px;
+}
+
+.lastone ul li {
+    display: inline-flex;
+}
+
+.footer {
+    margin-left: 120px;
+    font-family: monospace;
+    font-size: larger;
+    margin-top: 15px;
+}
+
+.socials {
+    margin-left: 250px;
+}
+
+.socials a {
+    margin-top: 20px;
+    color: white;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+.reserved {
+    margin-left: 200px;
+    margin-top: 18px;
+}
